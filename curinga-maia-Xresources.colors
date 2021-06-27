@@ -5,47 +5,45 @@
 !
 ! Author: Giuseppe (mhsalvor) Molinaro g.molinaro@linuxmail.com
 
-*.foreground:   #d8d8d8
-*.background:   #222d31
-*.fading:       8
-*.fadeColor:    #000000
-*.cursorColor:  #1abb9b
+*background:                      #222D31
+*foreground:                      #d8d8d8
+*fading:                          8
+*fadeColor:                       black
+*cursorColor:                     #1ABB9B
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #16A085
 
-!!  Dark colors:
-! Black
-*.color0:   #222d31
-! Red
-*.color1:   #ab4642
-! Green
-*.color2:   #7e807e
-! Yellow
-*.color3:   #f7ca88
-! Blue
-*.color4:   #7cafc2
-! Magenta
-*.color5:   #ba8baf
-! Cyan
-*.color6:   #1abb9b
-! White
-*.color7:   #d8d8d8    
+!! black dark/light
+*color0:                          #222D31
+*color8:                          #585858
 
-!!  Light Colors:
-! black
-*.color8:   #585858
-! red
-*.color9:   #f2777a
-! green
-*.color10:  #8d8f8d
-! yellow
-*.color11:  #ffcc66
-! blue
-*.color12:  #6699cc
-! magenta
-*.color13:  #cc99cc
-! cyan
-*.color14:  #66cccc
-! white
-*.color15:  #f8f8f8
+!! red dark/light
+*color1:                          #ab4642
+*color9:                          #bf616a
+
+!! green dark/light
+*color2:                          #7E807E
+*color10:                         #8D8F8D
+
+!! yellow dark/light
+*color3:                          #f7ca88
+*color11:                         #ebcb8b
+
+!! blue dark/light
+*color4:                          #7cafc2
+*color12:                         #81a1c1
+
+!! magenta dark/light
+*color5:                          #ba8baf
+*color13:                         #b48ead
+
+!! cyan dark/light
+*color6:                          #1ABB9B
+*color14:                         #8fbcbb
+
+!! white dark/light
+*color7:                          #d8d8d8
+*color15:                         #f8f8f8
 
 ! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
 ! use 'shell' template to set these if necessary
@@ -55,3 +53,4 @@
 *.color19:  #515151
 *.color20:  #a09f93
 *.color21:  #e8e6df
+
